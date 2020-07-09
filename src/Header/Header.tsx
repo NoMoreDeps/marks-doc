@@ -16,7 +16,7 @@ export function Header() {
   return <>
     <div className={`container-fluid ${styles.root}`} style={{position: "fixed", zIndex: 1000}}>
       <div className="ribbon"><span>Beta</span></div>
-      {/*<div className="ribbonR"><span>Support Us</span></div>*/}
+      <div className="ribbonR"><a href="https://github.com/sponsors/NoMoreDeps">Support Us</a></div>
       <div className="container">
         <TopMenu />
       </div>
