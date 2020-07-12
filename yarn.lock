@@ -26,10 +26,10 @@
   resolved "https://registry.yarnpkg.com/@marks-js/marks/-/marks-1.0.38.tgz#bf00aaf3142fdf56f20d723727922a6d6da1c7f6"
   integrity sha512-+GJDTgJZAO1I5sByrVyO539uSO2quNCc6xtd4M50MK7SOhTB6AGzRX+ZpTxUvMpIYLNn5FEDr1+K3HzresCYDw==
 
-"@marks-js/marks@^1.0.72":
-  version "1.0.72"
-  resolved "https://registry.yarnpkg.com/@marks-js/marks/-/marks-1.0.72.tgz#6f3d42c32e1da3cc3a3159e235381186b9cc0dd6"
-  integrity sha512-GdY4wyRmoDNQde5KHga5kDSYrQb8/TLwuNpW2tWiBz+NWnTRVdsLuXmbCAuWAFnZLXmXvQKs7RDl42LsNpv52Q==
+"@marks-js/marks@^1.0.73":
+  version "1.0.73"
+  resolved "https://registry.yarnpkg.com/@marks-js/marks/-/marks-1.0.73.tgz#0e397bed69bc97954bad313bf680cb2d77ab99d6"
+  integrity sha512-KfZ+nV8m28yERIYR10nwOWm3X0cCgNBBm/+ejhxWBf3cU3cqUb0HuDNAiR8ejQkizIiHzUvQnA3oMMoDsSDJSA==
 
 "@marks-js/mermaid@^1.0.38":
   version "1.0.38"
