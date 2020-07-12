@@ -1,6 +1,6 @@
 ## Using it
 
-Here you can find samples of what ca be done in your documents
+Here you can find samples of what can be done in your documents
 
 #### Flowchart
 Go to official [documentation](https://mermaid-js.github.io/mermaid/#/flowchart "new")

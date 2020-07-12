@@ -3,7 +3,7 @@
 
 It is possible for an Marks renderer instance to set a context in order to share data. Data can then be mapped to the document with the same syntax as the Nested placeholder syntax.
 
-If you pass the followinf context to the renderer...
+If you pass the following context to the renderer...
 ```typescript
 marksRenderer.context = {
   hello: "Hello kitty"
