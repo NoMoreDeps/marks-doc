@@ -1,6 +1,5 @@
 
-# options
-
+# Options
 
 In **Marks**, you can define options. A paragraph, or a block can have options. The way you declare options in a block is the same as a paragraph. The difference is where you can set them.
 

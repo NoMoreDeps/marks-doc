@@ -14,6 +14,12 @@ const global_config = {
         {name: "table"               , title: "Table"                , path: "/guide/table"               , groupTitle: "Elements" },
         {name: "code"                , title: "Code block"           , path: "/guide/code"                , groupTitle: "Elements" },
         {name: "link"                , title: "Link / Image / Ruler" , path: "/guide/link"                , groupTitle: "Elements" },
+
+        {name: "mb-image"            , title: "Image"                , path: "/guide/mb-image"            , groupTitle: "Marks Blocks" },        
+        {name: "mb-table"            , title: "Table"                , path: "/guide/mb-table"            , groupTitle: "Marks Blocks" },        
+        {name: "mb-marks"            , title: "Marks"                , path: "/guide/mb-marks"            , groupTitle: "Marks Blocks" },        
+        {name: "mb-html"             , title: "HTML"                 , path: "/guide/mb-html"             , groupTitle: "Marks Blocks" },        
+
         {name: "custom-introduction" , title: "Introduction"         , path: "/guide/custom-introduction" , groupTitle: "Customization" },
         {name: "custom-blocks"       , title: "Blocks"               , path: "/guide/custom-blocks"       , groupTitle: "Customization" },
         {name: "custom-styles"       , title: "Styles"               , path: "/guide/custom-styles"       , groupTitle: "Customization" },
