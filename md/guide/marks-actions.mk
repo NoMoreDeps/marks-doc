@@ -1,7 +1,7 @@
 
 # Marks Action
 
-when a context is set to the renderer, it is possible to use it in order to control how / when a content should be displayed.
+When a context is set to the renderer, it is possible to use it in order to control how / when a content should be displayed.
 
 ### Mk-Show
 The `mk-show` action will render the block only if the context value mapped to it is true.
