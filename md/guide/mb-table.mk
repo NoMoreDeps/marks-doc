@@ -34,7 +34,7 @@ ___ ::- variant:dashed
 You can change the `format` to `CSV`. In this case you have to explicitly set col alignment. To set alignment, use the `colAlignX` where `X` is the column number starting from 1. Align value can be `left`, `right`, `center`. Default is `left`.
 
 ```none ::- ref:cell01
-[table format:csv emp colAlign2:center colAlign3:right ref:cell02]{{
+[table format:csv emp colAlign2:center colAlign3:right]{{
   Column 1   , Column 2   , Column 3
   **Things** , _Don't_    , ~~Need~~
   To         , *__Look__* , `Pretty`
