@@ -12,6 +12,13 @@ m.registerRenderers(
   new BlockMermaidRenderer(),
   ...BsPlugins.map(_ => new _())
   );
+  m.context = {
+    hello: "Hello kitty",
+    show1: true,
+    show2: false,
+    names: [{ name: "Bob"}, {name: "Alice"}]
+  }
+
 m.setThemeStyle({
   text: {
     variant: {

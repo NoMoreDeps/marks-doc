@@ -25,6 +25,10 @@ const global_config = {
         {name: "custom-styles"       , title: "Styles"               , path: "/guide/custom-styles"       , groupTitle: "Customization" },
         {name: "custom-options"      , title: "Options"              , path: "/guide/custom-options"      , groupTitle: "Customization" },
         {name: "custom-nesting"      , title: "Nesting"              , path: "/guide/custom-nesting"      , groupTitle: "Customization" },
+        
+        {name: "marks-context"      , title: "Context"              , path: "/guide/marks-context"      , groupTitle: "Dynamic" },
+        {name: "marks-actions"      , title: "Actions"              , path: "/guide/marks-actions"      , groupTitle: "Dynamic" },
+
         {name: "plugins-mermaid"     , title: "Mermaid"              , path: "/pluging-mermaid"           , groupTitle: "Plugins" },
         {name: "theme-bootstrap"     , title: "Bootstrap"            , path: "/guide/theme-bootstrap"     , groupTitle: "Themes" },
       ]
