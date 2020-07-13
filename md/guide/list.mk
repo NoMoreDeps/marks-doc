@@ -81,6 +81,7 @@ An ordered list can only be defined with ***`a number followed by a period`***. 
 2. Item 3
 }}
 
+
 ___ ::- variant:dashed
 
 [bs-grid]{{
@@ -88,6 +89,35 @@ col-sm-12,col-md-6|@@cell01@@
 col-sm-12,col-md-6,outputNoBg|@@cell02@@
 col-sm-12,col-md-6|@@cell03@@
 col-sm-12,col-md-6,outputNoBg|@@cell04@@
+}}
+
+___ ::- variant:dashed
+
+If you do not wish to use a number for readability reasons, you can use the generic number symbol **`#`**
+
+```none ::- ref:cell01
+#. Item 1
+#. Item 2
+  #. Item 2.1
+    #. Item 2.1.1
+  #. Item 2.2
+#. Item 3
+```
+
+[marks ref:cell02]{{
+#. Item 1
+#. Item 2
+  #. Item 2.1
+    #. Item 2.1.1
+  #. Item 2.2
+#. Item 3
+}}
+
+___ ::- variant:dashed
+
+[bs-grid]{{
+col-sm-12,col-md-6|@@cell01@@
+col-sm-12,col-md-6,outputNoBg|@@cell02@@
 }}
 
 ___ ::- variant:dashed
