@@ -14,7 +14,7 @@ This is `inline quote`
 This is *Italic*  ::- ref:emp02
 This is **Bold**  
 This is ~underline~  
-This is ~stroke~  
+This is ~~stroke~~
 This is `inline quote`
 
 ___ ::- variant:dashed
