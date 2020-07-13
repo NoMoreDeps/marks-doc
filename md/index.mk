@@ -13,7 +13,7 @@
 [marks classes:index-top] {{
   { Marks }
 
-  *Markdown*... the way it always should've been...
+  *Markup text*... the way it always should've been...
 
   **Marks** is a markup language that aims to keep the simplicity of *Markdown*,  
   and brings a world of possibilities by removing its limits... ::- variant:justify elt:div
