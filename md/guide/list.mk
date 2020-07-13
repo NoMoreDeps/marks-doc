@@ -94,5 +94,5 @@ ___ ::- variant:dashed
 
 [marks classes:bd-callout,bd-callout-info]{{
 Nesting of complex elements *like in Markdown* such as multiline blockquotes is not allowed for readability concerns.  
-You can use the official [Marks](/guide/nesting) way of nesting to do the equivalent.
+You can use the official [Marks](/guide/custom-nesting) way of nesting to do the equivalent.
 }}
