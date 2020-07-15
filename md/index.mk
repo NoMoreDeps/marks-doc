@@ -152,7 +152,7 @@ ___ ::- classes:d-md-none
 
 [marks classes:col ref:COL01] {{
 ##### Can have custom components
-**Marks** supports adding custom component with one `unique` way to use theme. So you can add all options you need.
+**Marks** supports adding custom component with one `unique` way to use options. So you can add all options you need.
 ___ ::- classes:d-md-none
 }}
 
