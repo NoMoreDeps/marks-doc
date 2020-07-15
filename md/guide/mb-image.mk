@@ -1,7 +1,7 @@
 
 ## Image block
 
-The image block is another way to use an image in the docuemnt. It is usefull when you need prepare image as a ref, or with options not available with the inline image.
+The image block is another way to use an image in the docuemnt. It is useful when you need prepare image as a ref, or with options not available with the inline image.
 
 ```none ::- ref:cell01
 [img width:100px]{{

@@ -713,7 +713,7 @@ ____ ::- variant:dashed
 
 #### Marks component / plugin system
 
-Here we go !!! **Marks**`s real power is in the way we extend the renderer. We love **Markdown** but we are always frustrated to see that stylizing even a little is painfull in **Marddown** and the way we have to use components is tricky and limited.
+Here we go !!! **Marks**`s real power is in the way we extend the renderer. We love **Markdown** but we are always frustrated to see that stylizing even a little is painful in **Marddown** and the way we have to use components is tricky and limited.
 
 So **Marks** provides a **UNIQUE** component interface, so it is very easy to use and unlimited in possibility.  
 To use a component, just add it with `this` syntax : 

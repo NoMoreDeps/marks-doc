@@ -1,7 +1,7 @@
 
 # HTML Block
 
-The name is self-explanatory. In this block, you can define HTML code, in case you can't get what you want in pure **Marks**. If possible, prefer creating a new Marks Plugin, this will be usefull for the entire community :-)
+The name is self-explanatory. In this block, you can define HTML code, in case you can't get what you want in pure **Marks**. If possible, prefer creating a new Marks Plugin, this will be useful for the entire community :-)
 
  ::- classes:bd-callout,bd-callout-danger elt:div
 For reasons you can imagine, it is not possible to add a script tag in an `html` block.

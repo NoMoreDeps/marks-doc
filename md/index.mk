@@ -36,7 +36,7 @@ ___ ::- classes:d-md-none
 
 **Styles** ::- variant:secondary
 
-**Marks**  can be styled, with classes, theme and variant. There is nothing that prevents you rendering beautifull pages.
+**Marks**  can be styled, with classes, theme and variant. There is nothing that prevents you rendering beautiful pages.
 
 ___ ::- classes:d-md-none
 }}
