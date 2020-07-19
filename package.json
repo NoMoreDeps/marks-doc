@@ -14,12 +14,15 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "@marks-js/bootstrap": "^1.0.5",
-    "@marks-js/marks": "^1.0.76",
-    "@marks-js/mermaid": "^1.0.38",
+    "@marks-js/bootstrap": "^1.0.18",
+    "@marks-js/marks": "^1.1.0",
+    "@marks-js/mermaid": "^1.0.54",
     "@material-ui/styles": "^4.10.0",
     "codemirror": "^5.55.0",
     "react-codemirror2": "^7.2.1",
     "shadow-flux": "^2.0.12"
+  },
+  "scripts": {
+    "pk": "yarn tsc && yarn webpack"
   }
 }
