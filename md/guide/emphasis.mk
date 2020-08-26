@@ -7,7 +7,7 @@ When you want the user to pay attention on something in the text, you have to us
 This is *Italic*
 This is **Bold**
 This is ~underline~
-This is ~stroke~
+This is ~~stroke~~
 This is `inline quote`
 ```
 
