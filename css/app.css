@@ -1,0 +1,254 @@
+.index-top {
+  min-height           : 420px  ;
+  background-color : #282c34 ;
+}
+
+.index-top a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.index-top-get-started {
+  min-height           : 70px  ;
+  background-color : #282c34 ;
+}
+
+
+
+#HeadCol2 {
+  padding-top: 60px;
+}
+
+.footer {
+  min-height           : 220px  ;
+  background-color : #282c34 ;
+}
+
+.footer  .marks {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #59a9d8;
+   font-weight: bolder;
+}
+
+.index-top > p:nth-child(1) {
+  color       : #59a9d8;
+  text-align  :  center;
+  font-size   : 5em;
+  padding-top : 10px;
+}
+.index-top > p:nth-child(3) {
+  color       : #ffffff;
+  text-align  :  center;
+  font-size   : 1.5em;
+  padding-top : 20px;
+}
+.index-top > p:nth-child(5) {
+  color       : #ffffff;
+  text-align  :  center;
+  font-size   : 1.3em;
+  padding-top : 20px;
+  padding-left: 20px;;
+  padding-right: 20px;;
+}
+.index-top > p:nth-child(7) {
+  text-align  :  center;
+  font-size   : 2em;
+  padding-top : 20px;
+  padding-bottom : 20px;
+}
+
+.index-top-get-started > p:nth-child(1) {
+  color       : #59a9d8;
+  text-align  :  center;
+  padding-top : 10px;
+  font-size: 0px;
+}
+
+.col {
+  margin-top: 15px;;
+}
+
+.col img {
+  width: 30px;
+  display: inline-block;
+}
+
+.col p {
+  display: inline-block;
+}
+
+.col p:nth-child(3) {
+  margin-left: 15px;
+}
+.center {
+  text-align: center;
+}
+
+.sz250 {
+  width: 250px;
+}
+
+.largeText {
+  font-size: 3em;
+}
+
+.bg-dLight {
+  background-color: #efefef;
+}
+
+body {
+  background-color: #efefef;
+}
+
+table.headDark > thead {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #454d55
+}
+
+.output {
+  padding: 1em;
+  margin: 0.5em 0;
+  border: 1px solid #e6e6e6;
+  background-color: #e7e7e7;;
+}
+
+.outputNoBg {
+  padding: 1em;
+  margin: 0.5em 0;
+  border: 1px solid #e6e6e6;
+}
+
+.bd-callout {
+padding: 1.25rem;
+margin-top: 1.25rem;
+margin-bottom: 1.25rem;
+border: 1px solid #eee;
+border-left-width: .25rem;
+border-radius: .25rem;
+}
+
+.bd-callout-warning {
+border-left-color: #f0ad4e;
+}
+
+.bd-callout-danger {
+border-left-color: #d9534f;
+}
+
+.bd-callout-info {
+border-left-color: #5bc0de;
+}
+
+.justify {
+text-align: justify;
+}
+
+blockquote {
+background-color: #f7f7f6;
+}
+
+blockquote > div {
+border-left: 8px solid #ececec;
+padding-left: 5px;
+}
+
+
+/*BETA RIBBON*/
+.box {
+  width: 200px; height: 300px;
+  position: relative;
+  border: 1px solid #BBB;
+  background: #EEE;
+}
+.ribbon {
+  position: absolute;
+  left: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#6c757d 0%, #6c757d 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; left: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #6c757d;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #6c757d;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #6c757d;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #6c757d;
+}
+
+
+/*Right ribbon*/
+
+.ribbonR {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbonR a {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#17a2b8 0%, #17a2b8 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbonR a::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #17a2b8;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #17a2b8;
+}
+.ribbonR a::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #17a2b8;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #17a2b8;
+}
