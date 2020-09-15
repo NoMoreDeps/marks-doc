@@ -7,6 +7,7 @@ const global_config = {
         {name: "getting-started"     , title: "Getting Started"      , path: "/guide/getting-started"     , groupTitle: "Introduction" },
         {name: "document-structure"  , title: "Document structure"   , path: "/guide/document-structure"  , groupTitle: "Introduction" },
         {name: "emphasis"            , title: "Emphasis"             , path: "/guide/emphasis"            , groupTitle: "Elements" },
+        {name: "emoji"               , title: "Emoji"                , path: "/guide/emoji"               , groupTitle: "Elements" },
         {name: "heading"             , title: "Heading"              , path: "/guide/heading"             , groupTitle: "Elements" },
         {name: "blockquote"          , title: "Blockquote"           , path: "/guide/blockquote"          , groupTitle: "Elements" },
         {name: "list"                , title: "List"                 , path: "/guide/list"                , groupTitle: "Elements" },

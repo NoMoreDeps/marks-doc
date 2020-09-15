@@ -16,7 +16,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.55.0/theme/monokai.min.css">
   <link rel="stylesheet" href="/css/app.css">
   <style>
-    
+  ul.emojis {
+    display: table;
+    padding: 0 0 1em 1.5em;
+    font-family: monospace; 
+  }
+  ul.emojis > li {
+    list-style: none;
+    float: left;
+    width: 270px;
+    padding-right: 25px;
+    overflow-wrap: break-word;
+    margin-bottom: .5em;
+    }
+    ul.emojis >li .hover { margin-left: -4px; }
+    ul.emojis > li img {
+      vertical-align: middle;
+      height: 22px;
+      width: 22px; 
+    }
+  </style>
   </style>
 </head>
 <body>
