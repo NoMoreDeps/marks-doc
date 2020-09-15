@@ -1,6 +1,6 @@
 # Emoji
 
-Twiter emoji symboles are shiped out of the box with marks. To add an emoji in your document, just type the emoji name enclosed by `**":"**` 
+Twitter emoji symboles are shiped out of the box with marks. To add an emoji in your document, just type the emoji name enclosed by `**":"**` 
 
 ```md
 When I go outside, people are wearing some :mask:
