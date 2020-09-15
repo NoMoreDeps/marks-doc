@@ -60,3 +60,7 @@ To be crystal clear :smile: ** script tag** will never be interpreted, no matter
 ### Link block & Img
 
 When you use a link or Img block, Xss filter will remove any reference to the keywork `javascript` and `onerror`, on any case used, to avoid link of style `<a href="javascript:..."`
+
+### Context data.
+
+If you use some context data inside your document, all data will be sanitized too.
