@@ -6,6 +6,7 @@ const global_config = {
       pages: [
         {name: "getting-started"     , title: "Getting Started"      , path: "/guide/getting-started"     , groupTitle: "Introduction" },
         {name: "document-structure"  , title: "Document structure"   , path: "/guide/document-structure"  , groupTitle: "Introduction" },
+        {name: "html-xss"            , title: "Html & Xss"           , path: "/guide/html-xss"            , groupTitle: "Introduction" },
         {name: "emphasis"            , title: "Emphasis"             , path: "/guide/emphasis"            , groupTitle: "Elements" },
         {name: "emoji"               , title: "Emoji"                , path: "/guide/emoji"               , groupTitle: "Elements" },
         {name: "heading"             , title: "Heading"              , path: "/guide/heading"             , groupTitle: "Elements" },
