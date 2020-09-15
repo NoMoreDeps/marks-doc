@@ -1,4 +1,4 @@
-## Getting Started
+# Getting Started
 
 ```bash
 # With npm
@@ -8,9 +8,11 @@ npm i -S @marks-js/mermaid
 yarn add @marks-js/mermaid
 ```
 
+
 ___ ::- variant:dashed
 
-#### Adding it in the code
+
+### Adding it in the code
 
 ```typescript
 // Importing and adding it
@@ -22,10 +24,20 @@ renderer.registerRenderers(
   new BlockMermaidRenderer(),
   /* ... */
   );
+
+// Optionally you can override the mermaid version
+const renderer = new MarksRenderer();
+renderer.registerRenderers(
+  /* ... */
+  new BlockMermaidRenderer({ version: "8.8.0" }),
+  /* ... */
+  );
 ```
+  
 ___ ::- variant:dashed
 
-#### From CDN for direct use
+
+### From CDN for direct use
 
 ```html
 <!-- Latest version -->
@@ -34,6 +46,7 @@ ___ ::- variant:dashed
 <!-- Or a specific one-->
 <script src="https://unpkg.com/@marks-js/mermaid@1.0.33/dist/Marks.Mermaid.dist.js"></script>
 ```
+
 
 ```typescript
 // Adding it

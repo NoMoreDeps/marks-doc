@@ -1,4 +1,5 @@
 [mermaid theme:forest] {{
+%%{init: {'theme':'base'}}%%
 sequenceDiagram
   par Alice to Bob
     Alice->>Bob: Go help John
@@ -22,7 +23,7 @@ ___ ::- variant:dashed
 
 ___ ::- variant:dashed
 
-[mermaid theme:forest] {{
+[mermaid xss:false] {{
 classDiagram
   Animal <|-- Duck
   Animal <|-- Fish

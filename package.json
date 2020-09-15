@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@marks-js/bootstrap": "^1.0.18",
-    "@marks-js/marks": "^1.1.12",
+    "@marks-js/marks": "^1.1.23",
     "@marks-js/mermaid": "^1.0.54",
     "@material-ui/styles": "^4.10.0",
     "codemirror": "^5.55.0",

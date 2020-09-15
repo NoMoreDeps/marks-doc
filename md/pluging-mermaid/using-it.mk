@@ -3,7 +3,7 @@
 Here you can find samples of what can be done in your documents
 
 #### Flowchart
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/flowchart "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/flowchart.html "new")
 
 ```markdown
 [mermaid] {{
@@ -25,7 +25,7 @@ graph LR
 ___ ::- variant:dashed
 
 #### Sequence diagram
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/sequenceDiagram "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/sequenceDiagram.html "new")
 
 ```markdown
 [mermaid] {{
@@ -59,7 +59,7 @@ ___ ::- variant:dashed
 
 
 #### Class diagram
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/classDiagram "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/classDiagram.html "new")
 
 ```markdown
 [mermaid] {{
@@ -93,7 +93,7 @@ Square : +getMessages() List~string~
 ___ ::- variant:dashed
 
 #### State diagram
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/stateDiagram "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/stateDiagram.html "new")
 
 ```markdown
 [mermaid] {{
@@ -121,7 +121,7 @@ stateDiagram-v2
 ___ ::- variant:dashed
 
 #### Entity relationship diagram
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/entityRelationshipDiagram "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/entityRelationshipDiagram.html "new")
 
 ```markdown
 [mermaid] {{
@@ -141,7 +141,7 @@ erDiagram
 ___ ::- variant:dashed
 
 #### User Journey
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/user-journey "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/user-journey.html "new")
 
 ```markdown
 [mermaid] {{
@@ -171,7 +171,7 @@ journey
 ___ ::- variant:dashed
 
 #### Gantt
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/gantt "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/gantt.html "new")
 
 ```markdown
 [mermaid] {{
@@ -201,7 +201,7 @@ gantt
 ___ ::- variant:dashed
 
 #### Pie chart
-Go to official [documentation](https://mermaid-js.github.io/mermaid/#/pie "new")
+Go to official [documentation](https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/pie.html "new")
 
 ```markdown
 [mermaid] {{

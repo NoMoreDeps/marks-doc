@@ -9,7 +9,7 @@ const m = new MarksRenderer();
 (window as any).m = m;
 m.registerRenderers(
   ...Plugins.map(_ => new _()), 
-  new BlockMermaidRenderer(),
+  new BlockMermaidRenderer({ version:"8.8.0" }),
   ...BsPlugins.map(_ => new _())
   );
   m.context = {
