@@ -4,13 +4,15 @@ import { App }                         from "./App"               ;
 import { MarksRenderer, Plugins }      from "@marks-js/marks"     ;
 import { BlockMermaidRenderer }        from "@marks-js/mermaid"   ;
 import { BsPlugins }                   from "@marks-js/bootstrap" ;
+import { EmojiPreviewRenderer } from "./MarksPlugins/EmojiPreviewRenderer";
 
 const m = new MarksRenderer();
 (window as any).m = m;
 m.registerRenderers(
   ...Plugins.map(_ => new _()), 
   new BlockMermaidRenderer({ version:"8.8.0" }),
-  ...BsPlugins.map(_ => new _())
+  ...BsPlugins.map(_ => new _()),
+  new EmojiPreviewRenderer()
   );
   m.context = {
     hello: "Hello kitty",
