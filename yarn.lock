@@ -14,29 +14,24 @@
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@marks-js/bootstrap@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@marks-js/bootstrap/-/bootstrap-1.0.18.tgz#033e7f0db5a5974b6ac1761b8f5646177159dc5a"
-  integrity sha512-/R8TJB+rRi1g22Wgx2dYKEX+2qqAP66NdOFxJF9zdMnZR/5FGp3z360QOknIiwoWFO/5Yor7GRg8Or6Dz80Blw==
+"@marks-js/bootstrap@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@marks-js/bootstrap/-/bootstrap-1.0.19.tgz#3dcb19340be3e95e91b2f18bd76115ebdd6dedc0"
+  integrity sha512-E0P6VpF79YbYUKQ3nXFdqDFsVjjjtlkYyke+TYrdI8O7TXD9Y+fr6q7nTRCCyzE4ThFP+f9W9FepdTiSUYOAfw==
   dependencies:
-    "@marks-js/marks" "^1.1.0"
+    "@marks-js/marks" "^1.1.26"
 
-"@marks-js/marks@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@marks-js/marks/-/marks-1.1.0.tgz#6f785c2a0767b6af28ce59fadbf82c446dbb2ef0"
-  integrity sha512-hURlG4MLOynVUACWSjOCcEyykE8mkgYMWD1vSPdylfYuQ0Dsz5v/DPJ8j9X6aV0S+ZB5j8VRb5o5BAKgRhvsGw==
+"@marks-js/marks@^1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@marks-js/marks/-/marks-1.1.26.tgz#c9d13932ac3b0bc1d58a57b5ee132214d34809e1"
+  integrity sha512-ipUgX6wOnTzapMm5VyetaNPfx+MmzEoBQLL4C4JKofLq3YtyAmc5x0BExKMW1nnKeHi+dJwEPOThLgrJby9iIQ==
 
-"@marks-js/marks@^1.1.25":
-  version "1.1.25"
-  resolved "https://registry.yarnpkg.com/@marks-js/marks/-/marks-1.1.25.tgz#c3f038a6b3ce63894aec8d5fe847433b8d1d0883"
-  integrity sha512-E+WFQ64DBDDUKPxAwxNdfFPcbayAR7PbMCiZxFwrtUkbxB1oPP/6Jxh/aGgYtk312kIa+/11UDe7rDG5lcWHZQ==
-
-"@marks-js/mermaid@^1.0.54":
-  version "1.0.54"
-  resolved "https://registry.yarnpkg.com/@marks-js/mermaid/-/mermaid-1.0.54.tgz#b22ca2adafed2628e933c01d5a7c2d020a1bf849"
-  integrity sha512-FBKwTevKSx+W62kxTR74TGRFjqoVhvJvyIPw6h4lBaJmQ9tovsGnftYhWpg7hvKsjowZr5I0yxiPoiH5M3PYdg==
+"@marks-js/mermaid@^1.0.56":
+  version "1.0.56"
+  resolved "https://registry.yarnpkg.com/@marks-js/mermaid/-/mermaid-1.0.56.tgz#e6f8302d352b3a49a0a26569f5930b6267258852"
+  integrity sha512-TRpvmwtKK07BoeW5GpeETPXAp4w2nMvX1O7lfQo/1qNHYydQ+8NYgp6U6NZGcsGBULgAQ1Y174+kG8bc0YrLrA==
   dependencies:
-    "@marks-js/marks" "^1.1.0"
+    "@marks-js/marks" "^1.1.26"
 
 "@material-ui/styles@^4.10.0":
   version "4.10.0"

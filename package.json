@@ -14,9 +14,9 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "@marks-js/bootstrap": "^1.0.18",
-    "@marks-js/marks": "^1.1.25",
-    "@marks-js/mermaid": "^1.0.54",
+    "@marks-js/bootstrap": "^1.0.19",
+    "@marks-js/marks": "^1.1.26",
+    "@marks-js/mermaid": "^1.0.56",
     "@material-ui/styles": "^4.10.0",
     "codemirror": "^5.55.0",
     "react-codemirror2": "^7.2.1",
