@@ -8,7 +8,7 @@
 ___ ::- variant:dashed
 [img classes:img-fluid] {{
   "alt": "Mermaid",
-  "src": "https://mermaid-js.github.io/mermaid/assets/img/header.png"
+  "src": "/assets/mermaid-logo.png"
 }}
 ___ ::- variant:dashed
 
