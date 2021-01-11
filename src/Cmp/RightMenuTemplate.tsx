@@ -25,10 +25,15 @@ export function RightMenuTemplate(props: RightMenuTemplateProps) {
     if (idx++ > 0) {
       items.push(<hr style={{borderStyle: "dashed"}}/>);
     }
-    items.push(<h3>{i}</h3>);
+    items.push(<h3 style={{color: "#2e8ac0"}}>{i}</h3>);
     items.push(hash[i].map((_:any) => <h6 
-      className={`${_.path === props.state.subMenuItem?.path ? "text-info" : "text-secondary"}`}
-      style={{cursor: "pointer"}} 
+      style={{
+        borderLeft  : _.path === props.state.subMenuItem?.path ? "3px solid #2e8ac0" : "3px solid transparent",
+        paddingLeft : "10px",
+        marginLeft  : "10px",
+        color       : _.path === props.state.subMenuItem?.path ? "#2e8ac0" : "#494d51",
+        cursor      : "pointer"
+      }} 
       onClick={() => {
         window.history.pushState({path: _.path}, "", _.path);
         setToggleMenu(false);
