@@ -1,5 +1,7 @@
 
-# Heading
+
+# Heading ::- classes:text-center
+
 
 To add a Heading in your text, start your line with the symbol ***`#`***  
 Repeat the symbol from 1 to 6 times to set a heading from ***`H1`*** to ***`H6`***

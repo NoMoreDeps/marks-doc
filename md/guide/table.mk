@@ -1,5 +1,7 @@
 
-# Table
+
+# Table ::- classes:text-center
+
 
 Tables are great to quicly show data. **Marks** table syntax is almost the same as  `[Github Table format](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown "new")` in order to facilitate migration from *MD* to **Marks**. A table is composed of 3 elements.
 

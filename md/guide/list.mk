@@ -1,5 +1,7 @@
 
-# List
+
+# List ::- classes:text-center
+
 
 You can add in your text some data formatted as a list. **Marks** supports as *Markdown*, ordered and unordered lists.
 

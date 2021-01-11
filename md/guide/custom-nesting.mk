@@ -1,5 +1,7 @@
 
-# Nesting
+
+# Nesting ::- classes:text-center
+
 
 If you've ever worked with *Markdown*, you've seen that there are limits to how you can / cannot nest one component into another. For example, it is not possible to nest one table into another, the syntax is not flexible enough to allow this.
 

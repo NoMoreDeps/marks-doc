@@ -1,5 +1,7 @@
 
-# Task list
+
+# Task list ::- classes:text-center
+
 
 A task list is a way to show an unordered list of task. Each item has a *todo* or *done* state. To add a task list you have to start a line with the symbol ***`-`***,  followed by `[ ]` or `[x]`.
 

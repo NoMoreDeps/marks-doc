@@ -25,9 +25,11 @@ export function RightMenuTemplate(props: RightMenuTemplateProps) {
     if (idx++ > 0) {
       items.push(<hr style={{borderStyle: "dashed"}}/>);
     }
+
     items.push(<h3 style={{color: "#2e8ac0"}}>{i}</h3>);
     items.push(hash[i].map((_:any) => <h6 
       style={{
+        marginTop   : "3px",
         borderLeft  : _.path === props.state.subMenuItem?.path ? "3px solid #2e8ac0" : "3px solid transparent",
         paddingLeft : "10px",
         marginLeft  : "10px",

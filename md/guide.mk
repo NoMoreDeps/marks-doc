@@ -1,5 +1,8 @@
 
-# Guide
+
+# Guide ::- classes:text-center
+
+
 In this section, you will find information about **Marks** rendering engine and how it can helps you 
 writing beautiful pages without the need to add or learn HTML or CSS.
 

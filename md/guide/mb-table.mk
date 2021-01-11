@@ -1,5 +1,7 @@
 
-# Table block
+
+# Table block ::- classes:text-center
+
 
 ## Markdown format
 The table block is an improved version of the MD Table. It is compatible with the MD format. So inside the block the same syntax is used. You have to set the `format` parameter to `markdown`.  

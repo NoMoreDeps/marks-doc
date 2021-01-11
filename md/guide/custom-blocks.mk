@@ -1,5 +1,7 @@
 
-# Marks Block System
+
+# Marks Block System ::- classes:text-center
+
 
 **Marks** provides a **`unique`** way to expand the possibilities within the document. When I say unique, I mean in the declarative sense of the word, the declaration syntax of a block is the same for all blocks.
 

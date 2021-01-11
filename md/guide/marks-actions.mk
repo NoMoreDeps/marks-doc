@@ -1,5 +1,7 @@
 
-# Marks Action
+
+# Marks Action ::- classes:text-center
+
 
 When a context is set to the renderer, it is possible to use it in order to control how / when a content should be displayed.
 

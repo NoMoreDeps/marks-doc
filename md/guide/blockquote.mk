@@ -1,5 +1,7 @@
 
-# Blockquote
+
+# Blockquote ::- classes:text-center
+
 
 In the document, you can call out a block of text as a quotation. In order to do so, start a new line with the symbol ***`>`***.
 

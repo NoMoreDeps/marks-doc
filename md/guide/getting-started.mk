@@ -1,5 +1,7 @@
 
-# Getting Started with { Marks }
+
+# Getting Started with { Marks } ::- classes:text-center
+
 
 **Marks** is a markup language and a renderer that aims to keep the simplicity of *Markdown*,  
 and brings a world of possibilities by removing its limits...

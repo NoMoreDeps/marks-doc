@@ -1,5 +1,7 @@
 
-# Styles
+
+# Styles ::- classes:text-center
+
 
 In **Marks**, styles are options, but to keep it simple, some option names are dedicated to style. A paragraph, or a block can have styles. The way you declare styles in a block is the same as a paragraph. The difference is where you can set them.
 

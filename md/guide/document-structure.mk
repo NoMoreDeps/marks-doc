@@ -1,5 +1,7 @@
 
-# Document structure
+
+# Document structure ::- classes:text-center
+
 
 A **Marks** document is a simple text file. This file contains special character sequences that describe 
 how a text should be formatted when rendered.

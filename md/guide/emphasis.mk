@@ -1,5 +1,7 @@
 
-# Emphasis
+
+# Emphasis ::- classes:text-center
+
 
 When you want the user to pay attention on something in the text, you have to use some formatting to help him seeing what is important. This is what `emphasis` is about.
 

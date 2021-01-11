@@ -1,5 +1,7 @@
 
-# HTML Block
+
+# HTML Block ::- classes:text-center
+
 
 The name is self-explanatory. In this block, you can define HTML code, in case you can't get what you want in pure **Marks**. If possible, prefer creating a new Marks Plugin, this will be useful for the entire community :-)
 

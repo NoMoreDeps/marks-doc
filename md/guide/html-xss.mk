@@ -1,5 +1,7 @@
 
-# Html and Xss
+
+# Html and Xss ::- classes:text-center
+
 
 By default, and this is where Marks differs the most from Markdown, the use of HTML is not possible by default. To use HTML, you must use an HTML block provided for this purpose.
 

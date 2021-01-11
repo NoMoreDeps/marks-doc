@@ -1,5 +1,7 @@
 
-# Link
+
+# Link ::- classes:text-center
+
 
 You can add clickable links in your document.  A link can have 3 elements :
 
@@ -25,7 +27,8 @@ col-sm-12,col-md-6,outputNoBg|@@cell02@@
 ___ ::- variant:dashed
 
 
-# Image
+# Image ::- classes:text-center
+
 
 You can add clickable links in your document.  A link can have 3 elements :
 
@@ -50,7 +53,9 @@ col-sm-12,col-md-6,outputNoBg|@@cell02@@
 }}
 ___ ::- variant:dashed
 
-# Ruler
+
+# Ruler ::- classes:text-center
+
 
 To create a horizontal rule, use three or more underscores (___) on a line, **`wihtout any other character`**.
 

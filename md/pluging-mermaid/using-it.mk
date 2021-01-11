@@ -1,4 +1,7 @@
-## Using it
+
+
+# Using it ::- classes:text-center
+
 
 Here you can find samples of what can be done in your documents
 

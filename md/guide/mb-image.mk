@@ -1,5 +1,7 @@
 
-## Image block
+
+# Image block ::- classes:text-center
+
 
 The image block is another way to use an image in the docuemnt. It is useful when you need prepare image as a ref, or with options not available with the inline image.
 

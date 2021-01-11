@@ -1,4 +1,7 @@
-# Emoji
+
+
+# Emoji ::- classes:text-center
+
 
 Twitter emoji symboles are shiped out of the box with marks. To add an emoji in your document, just type the emoji name enclosed by `**":"**` 
 

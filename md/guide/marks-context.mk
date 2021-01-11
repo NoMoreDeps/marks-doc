@@ -1,5 +1,7 @@
 
-# Context
+
+# Context ::- classes:text-center
+
 
 It is possible for an Marks renderer instance to set a context in order to share data. Data can then be mapped to the document with the same syntax as the Nested placeholder syntax.
 

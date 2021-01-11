@@ -1,5 +1,7 @@
 
-# Code block
+
+# Code block ::- classes:text-center
+
 
 You can make text appear as a block of code. Start and end a line with `\`\`\`` and place you code inside.
 
