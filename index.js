@@ -50,7 +50,9 @@ const global_config = {
         {name: "guide"               , title: "Go back to Guide"     , path: "/guide"                               , groupTitle: "Home"        , html: "index-bs5"},
         {name: "intro"               , title: "Intro"                , path: "/theme-bootstrap/intro"               , groupTitle: "Introduction", html: "index-bs5"},
         {name: "getting-started"     , title: "Getting Started"      , path: "/theme-bootstrap/getting-started"     , groupTitle: "Introduction", html: "index-bs5"},
-        {name: "typography"          , title: "Typography"           , path: "/theme-bootstrap/typography"          , groupTitle: "Introduction", html: "index-bs5"}
+        {name: "typography"          , title: "Typography"           , path: "/theme-bootstrap/typography"          , groupTitle: "Content", html: "index-bs5"},
+        {name: "image"          , title: "Image"           , path: "/theme-bootstrap/image"          , groupTitle: "Content", html: "index-bs5"},
+        {name: "table"          , title: "Table"           , path: "/theme-bootstrap/table"          , groupTitle: "Content", html: "index-bs5"}
       ] 
     },
     {name: "repl"  , title: "REPL"  , path: "/repl", template: "repl"},

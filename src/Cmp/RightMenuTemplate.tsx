@@ -55,7 +55,7 @@ export function RightMenuTemplate(props: RightMenuTemplateProps) {
         marginLeft  : "10px",
         color       : _.path === props.state.subMenuItem?.path ? "#2e8ac0" : "#494d51",
         cursor      : "pointer",
-        display     : collaspMenu[i] ? "block" : "none"
+        /* display     : collaspMenu[i] ? "block" : "none" */
       }} 
       onClick={() => {
         window.history.pushState({path: _.path}, "", _.path);
