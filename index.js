@@ -31,15 +31,26 @@ const global_config = {
         {name: "marks-context"      , title: "Context"              , path: "/guide/marks-context"      , groupTitle: "Dynamic" },
         {name: "marks-actions"      , title: "Actions"              , path: "/guide/marks-actions"      , groupTitle: "Dynamic" },
 
-        {name: "plugins-mermaid"     , title: "Mermaid"              , path: "/pluging-mermaid"           , groupTitle: "Plugins" },
-        {name: "theme-bootstrap"     , title: "Bootstrap"            , path: "/guide/theme-bootstrap"     , groupTitle: "Themes" },
+        {name: "plugins-mermaid"     , title: "Mermaid"              , path: "/pluging-mermaid/intro"        , groupTitle: "Plugins" },
+        {name: "theme-bootstrap"     , title: "Bootstrap"            , path: "/theme-bootstrap/intro"  , groupTitle: "Themes", html: "index-bs5"},
       ]
     },
     {
       name: "pluging-mermaid", title: "Mermaid", path:"/pluging-mermaid", template: "rightenu", hidden: true,
       pages: [
+        {name: "guide"               , title: "Go back to Guide"     , path: "/guide"                               , groupTitle: "Home"         },
+        {name: "intro"               , title: "Intro"                , path: "/pluging-mermaid/intro"               , groupTitle: "Introduction" },
         {name: "getting-started"     , title: "Getting Started"      , path: "/pluging-mermaid/getting-started"     , groupTitle: "Introduction" },
         {name: "using-it"            , title: "Using it"             , path: "/pluging-mermaid/using-it"            , groupTitle: "Introduction" }
+      ] 
+    },
+    {
+      name: "theme-bootstrap", title: "Bootstrap", path:"/theme-bootstrap", template: "rightenu", hidden: true,
+      pages: [
+        {name: "guide"               , title: "Go back to Guide"     , path: "/guide"                               , groupTitle: "Home"        , html: "index-bs5"},
+        {name: "intro"               , title: "Intro"                , path: "/theme-bootstrap/intro"               , groupTitle: "Introduction", html: "index-bs5"},
+        {name: "getting-started"     , title: "Getting Started"      , path: "/theme-bootstrap/getting-started"     , groupTitle: "Introduction", html: "index-bs5"},
+        {name: "typography"          , title: "Typography"           , path: "/theme-bootstrap/typography"          , groupTitle: "Introduction", html: "index-bs5"}
       ] 
     },
     {name: "repl"  , title: "REPL"  , path: "/repl", template: "repl"},

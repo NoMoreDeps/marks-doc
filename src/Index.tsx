@@ -28,6 +28,9 @@ m.setThemeStyle({
       justify : "justify"     ,
     }
   },
+  blockquote: {
+    classes: "blockquote"
+  },
   table: {
     classes: "table",
     variant: {

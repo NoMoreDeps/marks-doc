@@ -68,7 +68,7 @@ export class AppStore extends Flux.BaseStore<AppStoreState> {
     this.updateTemplate();
 
     window.onpopstate = (ev: PopStateEvent) => {
-      this.sendAction(AppStoreActions.nav(ev.state.name));
+      this.sendAction(AppStoreActions.nav(ev.state?.name ?? ev.state?.path));
     };
 
     const pushState = window.history.pushState.bind(window.history);

@@ -5,10 +5,10 @@
 
 ```bash
 # With npm
-npm i -S @marks-js/mermaid
+npm i -S @marks-js/bootstrap
 
 # With yarn
-yarn add @marks-js/mermaid
+yarn add @marks-js/bootstrap
 ```
 
 
@@ -19,20 +19,20 @@ ___ ::- variant:dashed
 
 ```typescript
 // Importing and adding it
-import { BlockMermaidRenderer } from "@marks-js/mermaid";
+import { BsPlugins } from "@marks-js/bootstrap";
 
 const renderer = new MarksRenderer();
-renderer.registerRenderers(
+  marks.registerRenderers(
   /* ... */
-  new BlockMermaidRenderer(),
-  /* ... */
+  ...BsPlugins.map(_ => new _()),
   );
 
-// Optionally you can override the mermaid version
+
+// Optionally you can override the bootstrap version
 const renderer = new MarksRenderer();
 renderer.registerRenderers(
   /* ... */
-  new BlockMermaidRenderer({ version: "8.8.0" }),
+  BsPlugins.map(_ => new _({ version: "5.0.0-beta1" })), // Default version
   /* ... */
   );
 ```
@@ -44,10 +44,10 @@ ___ ::- variant:dashed
 
 ```html
 <!-- Latest version -->
-<script src="https://unpkg.com/@marks-js/mermaid/dist/Marks.Mermaid.dist.js"></script>
+<script src="https://unpkg.com/@marks-js/bootstrap/dist/Marks.Bootstrap.dist.js"></script>
 
 <!-- Or a specific one-->
-<script src="https://unpkg.com/@marks-js/mermaid@1.0.33/dist/Marks.Mermaid.dist.js"></script>
+<script src="https://unpkg.com/@marks-js/bootstrap@1.0.22/dist/Marks.Bootstrap.dist.js"></script>
 ```
 
 
@@ -58,6 +58,6 @@ const renderer = new Marks.MarksRenderer();
 
 renderer.registerRenderers(
   ...Marks.Plugins.map(_ => new _()),
-  new Marks_Mermaid.BlockMermaidRenderer()
+  ...Marks_Bootstrap.BsPlugins.map(_ => new _())
 );
 ```
