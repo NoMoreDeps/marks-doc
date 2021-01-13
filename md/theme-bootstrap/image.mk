@@ -41,12 +41,12 @@ In Marks with Bootstrap theme are made responsive with fluid variant. This appli
 
 You can set `rounded` variant, or `circle` to add rounded corner to images
 [img variant:fluid,rounded ref:i01]{{
-  "src" : "/assets/profile.png",
+  "src" : "/assets/profile.PNG",
   "alt" : "Image"
 }}
 
 [img variant:fluid,circle ref:i02]{{
-  "src" : "/assets/profile.png",
+  "src" : "/assets/profile.PNG",
   "alt" : "Image"
 }}
 
