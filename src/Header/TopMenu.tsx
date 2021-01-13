@@ -58,7 +58,13 @@ export function TopMenu() {
       menuItems.push(
         <div 
         className = {`${classes.menuItem} ${page.path === state.mainMenuitem.path ? classes.active : ""}`}
-        onClick   = {() => window.history.pushState(page, "", page.path)}
+        onClick   = {() => {
+          if (page.isHardLink) {
+            window.location.href = page.path;
+            return;
+          }
+          window.history.pushState(page, "", page.path)
+        }}
         >{page.title}</div>
       );
     }

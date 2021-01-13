@@ -58,6 +58,11 @@ export function RightMenuTemplate(props: RightMenuTemplateProps) {
         /* display     : collaspMenu[i] ? "block" : "none" */
       }} 
       onClick={() => {
+        if (_.isHardLink) {
+          location.href = _.path;
+          return;
+        }
+        
         window.history.pushState({path: _.path}, "", _.path);
         setToggleMenu(false);
       }}

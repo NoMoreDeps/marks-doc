@@ -1,8 +1,8 @@
 const global_config = {
   pages: [
-    {name: "index", title: "Home", path: "/"},
+    {name: "index", title: "Home", path: "/", isHardLink: true},
     {
-      name: "guide", title: "Guide", path:"/guide", template: "rightenu",
+      name: "guide", title: "Guide", path:"/guide", template: "rightenu", isHardLink: true,
       pages: [
         {name: "getting-started"     , title: "Getting Started"      , path: "/guide/getting-started"     , groupTitle: "Introduction" },
         {name: "document-structure"  , title: "Document structure"   , path: "/guide/document-structure"  , groupTitle: "Introduction" },
@@ -32,14 +32,14 @@ const global_config = {
         {name: "marks-actions"      , title: "Actions"              , path: "/guide/marks-actions"      , groupTitle: "Dynamic" },
 
         {name: "plugins-mermaid"     , title: "Mermaid"              , path: "/pluging-mermaid/intro"        , groupTitle: "Plugins" },
-        {name: "theme-bootstrap"     , title: "Bootstrap"            , path: "/theme-bootstrap/intro"  , groupTitle: "Themes", html: "index-bs5"},
+        {name: "theme-bootstrap"     , title: "Bootstrap"            , path: "/theme-bootstrap/intro"  , groupTitle: "Themes", html: "index-bs5", isHardLink: true},
       ]
     },
     {
       name: "pluging-mermaid", title: "Mermaid", path:"/pluging-mermaid", template: "rightenu", hidden: true,
       pages: [
         {name: "guide"               , title: "Go back to Guide"     , path: "/guide"                               , groupTitle: "Home"         },
-        {name: "intro"               , title: "Intro"                , path: "/pluging-mermaid/intro"               , groupTitle: "Introduction" },
+        {name: "intro"               , title: "Intro"                , path: "/pluging-mermaid/intro"               , groupTitle: "Introduction"},
         {name: "getting-started"     , title: "Getting Started"      , path: "/pluging-mermaid/getting-started"     , groupTitle: "Introduction" },
         {name: "using-it"            , title: "Using it"             , path: "/pluging-mermaid/using-it"            , groupTitle: "Introduction" }
       ] 
@@ -47,7 +47,7 @@ const global_config = {
     {
       name: "theme-bootstrap", title: "Bootstrap", path:"/theme-bootstrap", template: "rightenu", hidden: true,
       pages: [
-        {name: "guide"               , title: "Go back to Guide"     , path: "/guide"                               , groupTitle: "Home"        , html: "index-bs5"},
+        {name: "guide"               , title: "Go back to Guide"     , path: "/guide"                               , groupTitle: "Home"        , html: "index-bs5", isHardLink: true},
         {name: "intro"               , title: "Intro"                , path: "/theme-bootstrap/intro"               , groupTitle: "Introduction", html: "index-bs5"},
         {name: "getting-started"     , title: "Getting Started"      , path: "/theme-bootstrap/getting-started"     , groupTitle: "Introduction", html: "index-bs5"},
         {name: "typography"          , title: "Typography"           , path: "/theme-bootstrap/typography"          , groupTitle: "Content", html: "index-bs5"},
@@ -55,8 +55,8 @@ const global_config = {
         {name: "table"          , title: "Table"           , path: "/theme-bootstrap/table"          , groupTitle: "Content", html: "index-bs5"}
       ] 
     },
-    {name: "repl"  , title: "REPL"  , path: "/repl", template: "repl"},
-    {name: "about" , title: "About" , path: "/about"}
+    {name: "repl"  , title: "REPL"  , path: "/repl", template: "repl", isHardLink: true},
+    {name: "about" , title: "About" , path: "/about", isHardLink: true}
   ]
 };
 

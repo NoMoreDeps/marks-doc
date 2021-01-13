@@ -40,7 +40,14 @@ m.setThemeStyle({
       headDark : "headDark"       ,
     },
     theme: {
-      dark: "table-dark",
+      primary   : "table-primary"   ,
+      secondary : "table-secondary" ,
+      success   : "table-success"   ,
+      danger    : "table-danger"    ,
+      warning   : "table-warning"   ,
+      info      : "table-info"      ,
+      light     : "table-light"     ,
+      dark      : "table-dark"      ,
     }
   },
   img: {

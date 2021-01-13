@@ -10,13 +10,14 @@ export type AppStoreState = {
 }
 
 export type  TPage = {
-  title    ?: string  ;
-  name      : string  ;
-  template ?: string  ;
-  path      : string  ;
-  md       ?: string  ;
-  hidden   ?: boolean ;
-  pages    ?: TPage[] ;
+  title      ?: string  ;
+  name        : string  ;
+  template   ?: string  ;
+  path        : string  ;
+  md         ?: string  ;
+  hidden     ?: boolean ;
+  pages      ?: TPage[] ;
+  isHardLink ?: boolean ;
 }
 
 export type TGlobalConfig = {
